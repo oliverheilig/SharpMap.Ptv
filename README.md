@@ -19,3 +19,11 @@ The primary use of this library is the generation of map images with data from d
 * In client applications, if you don't need interaction but only static images. See the demo application in this project.
 * As renderer inside a client control, see the "ShapeFile" sample in [xServer.NET DemoCenter](http://xserverinternet.azurewebsites.net/xserver.net/)
 * As as Tile/Imagery service for web applications, see [here for a sample](https://github.com/ptv-logistics/ajaxmaps-shapefile)
+
+So you can use this library in two directions: Either overlay PTV content on 3rd-party content, or 3rd-party content on a PTV map.
+
+# What do i need to start?
+
+To build the project, you need Microsoft Visual Studio or the free [Community Edition](https://www.visualstudio.com/products/visual-studio-community-vs.aspx).
+ 
+To run the code, you need an installed PTV xMapServer or an xServer internet subscription. Go to http://xserver.ptvgroup.com/en-uk/products/ptv-xserver-internet/test/ to get a trial token.
