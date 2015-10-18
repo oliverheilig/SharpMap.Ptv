@@ -14,7 +14,7 @@ This is an extension for the Open Source .NET library [SharpMap](http://sharpmap
 
 # How can i use it?
 
-The primary use of this library is the generation of map images with data from different sources. In contrast to client mapping libraries like [xServer.NET](http://xserverinternet.azurewebsites.net/xserver.net/), which is a "retained renderer", SharpMap is an "immediate renderer". This means an image is directly by drawing directives. The scenarios for this approach:
+The primary use of this library is the generation of map images with data from different sources. In contrast to client mapping libraries like [xServer.NET](http://xserverinternet.azurewebsites.net/xserver.net/), which is a "retained renderer", SharpMap is an "immediate renderer". This means an image is generated directly by drawing directives. The scenarios for this approach:
 
 * In client applications, if you don't need interaction but only static images. See the demo application in this project.
 * As renderer inside a client control, see the "ShapeFile" sample in [xServer.NET DemoCenter](http://xserverinternet.azurewebsites.net/xserver.net/)
